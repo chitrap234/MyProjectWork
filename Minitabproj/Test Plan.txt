@@ -1,0 +1,33 @@
+Test Plan
+
+scope of testing : we are Testing response of Order API which is interface communicator between company’s 
+Enterprise Sales and Financial systems. we need to check if data is properly created in Server.
+
+HTTP POST : We are validating Positive response[200] and negative response[400]. For positive case we are passing all
+valid data input while to check negative response I have passed incorrect data.
+
+Tools used : 
+java [programming Language]
+maven [Build automation Tool]
+TestNg [Unit Testing Framework]
+RestAssured [Library  to test RestFul API]
+
+Testing Approach: 
+We can use data driven testing as passing Data from DataProvider Or Excel File. Another approach could be
+store data in HashMap collection.
+
+Test environment : Here host URL is not provided so  used of LocalHost to run Tests with end point /order
+https://localhost:8080/order
+
+Deliverable: 
+HTTP Post: with 200 response code
+HTTP Post :with 400 response code
+
+Advance Approach
+1)In our Framework we can create one file to store only Host URI
+2)We can have separate java class to store all EndPoint as a Static String.
+3)Allure Reports can be integrated in framework
+4)Logs can be generated for each test cases.
+Testng suits can be created to run 
+
+Version Control GitHub is used to store framework.

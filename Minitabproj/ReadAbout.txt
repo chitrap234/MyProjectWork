@@ -1,0 +1,12 @@
+This is details about Framework
+
+Tech Stack:
+Java 
+Maven
+Testng
+SpringBoot validation
+RestAssured
+
+Pom.xml -This file contain Dependencies for project.
+
+ getter and setter  used to validate data before passing as a post payload. 
